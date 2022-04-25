@@ -4,7 +4,6 @@ import axios from 'axios';
 import SavedList from './Movies/SavedList';
 import { MovieList, MovieDetails } from './Movies/MovieList';
 import {Route, Link, Switch} from 'react-router-dom';
-import {useHistory} from 'react-router-dom';
 import Movie from './Movies/Movie';
 
 export default function App () {
